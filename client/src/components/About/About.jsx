@@ -15,7 +15,7 @@ const About = () => {
           footsteps.
         </p>
         <p>
-          Whether you are willing to share your knowledge or you are just lookin
+          Whether you are willing to share your knowledge or you are just looking
           to meet mentors of your own, please start by joining the network here.
         </p>
         <div>

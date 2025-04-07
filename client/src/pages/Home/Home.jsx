@@ -175,7 +175,7 @@ const Home = () => {
             {/* Profile edit panel - shows when profileOpen is true */}
             <div
               className={`${styles.profileBox} ${
-                profileOpen ? styles.open : ""
+                profileOpen ? styles.open : styles.close
               }`}
             >
               <h4 className={styles.Name}>User: {user.username}</h4>
@@ -249,10 +249,10 @@ const Home = () => {
                   <AiFillLike />
                   Trending
                 </Link>
-              </div>
-              <Link to="/question" className={styles.askQuestionButton}>
+                <Link to="/question" className={styles.askQuestionButton}>
                 Ask Question
               </Link>
+              </div>              
             </div>
             <br />
             <input
